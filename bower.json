@@ -1,0 +1,26 @@
+{
+	"name": "testing--require",
+	"version": "0.0.0",
+	"authors": [
+		"Fafnirical <wade.burelbach@gmail.com>"
+	],
+	"license": "MIT",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"Accessible-Mega-Menu": "https://github.com/adobe-accessibility/Accessible-Mega-Menu.git#a62ada239d",
+		"jquery": "1.11.1",
+		"jquery-ui": "1.11.4"
+	},
+	"devDependencies": {
+		"requirejs": "~2.1.17",
+		"rjs": "~2.1.17",
+		"almond": "~0.3.1"
+	}
+}
